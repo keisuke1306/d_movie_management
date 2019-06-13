@@ -1,0 +1,14 @@
+<VirtualHost *:80>
+    ServerName TODO
+    DocumentRoot /home/movie_manage/www/htdocs
+    DirectoryIndex index.php
+
+    ErrorLog "|/usr/sbin/cronolog /home/movie_manage/log/apache/vsearch_movie_manage_%Y%m%d.err.log"
+    CustomLog "|/usr/sbin/cronolog /home/movie_manage/log/apache/vsearch_movie_manage_%Y%m%d.log" combined
+
+    <Directory "/home/movie_manage/www/htdocs">
+        Require all granted
+        AllowOverride ALL
+    </Directory>
+    SetENV ENVIRONMENT "production"
+</VirtualHost>

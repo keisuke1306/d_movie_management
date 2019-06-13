@@ -1,0 +1,402 @@
+
+  .top_icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .number1 {
+    font-size: 150%;
+    color: #f0a225;
+    font-family: impact;
+  }
+
+  .number2 {
+    font-size: 140%;
+    color: #55545D;
+    font-family: impact;
+  }
+
+  .number3 {
+    font-size: 130%;
+    color: #95411C;
+    font-family: impact;
+  }
+
+  .default_number {
+    font-size: 120%;
+    color: #800000;
+    font-family: impact;
+  }
+
+  .open_abilty {
+    background-color: #d43131;
+  }
+
+  .close_ability {
+    background-color: #0F52BC;
+  }
+
+  .number_of_people {
+    background-color: #dc6703;
+  }
+
+  .paging_movie {
+    text-align: center;
+    display: block;
+    margin: 20px auto;
+  }
+
+  ul.pagination {
+    margin: 0 0 10px;
+    padding: 10px 10px 5px;
+    background: #eee;
+    text-align: center;
+  }
+
+  ul.pagination li {
+    display: inline;
+    margin: 0 2px;
+    padding: 0;
+  }
+
+  ul.pagination li span,
+  ul.pagination li a {
+    display: inline-block;
+    margin-bottom: 5px;
+    padding: 1px 8px;
+    background: #fff;
+    border: 1px solid #aaa;
+    text-decoration: none;
+    vertical-align: middle;
+  }
+
+  ul.pagination li a:hover {
+    background: #eeeff7;
+    border-color: #00f;
+  }
+/*
+  .paging_movie strong {
+    border: 1px solid #ddd;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    margin: 0 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  }
+
+  .paging_movie a {
+    border: 1px solid #ddd;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    margin: 0 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  }
+
+  .paging_movie a:hover {
+      background-color: #f5f5f5;
+  }*/
+
+  .paging li {
+    border: 1px solid #ddd;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    padding: 5px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  }
+
+  .paging .inline {
+      text-align: center;
+  }
+  .paging .inline li {
+      display: inline;
+  }
+
+  .paging .inline li a {
+      padding: 0 7px;
+      line-height: 34px;
+      text-decoration: none;
+      border-left-width: 0;   
+  }
+
+  .paging li:hover, .inline li.active {
+      background-color: #f5f5f5;
+  }
+
+  /***** actor ****/
+
+  .search_form {
+    width: 90%;
+    margin: 40px 10px 40px 5%;
+    padding: 20px 0;
+    background-color: #fff;
+    border: 2px solid #800000;
+  }
+
+  .search_menu {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .search_label {
+    background-color: #800000;
+    padding: 6px 20px 6px 20px;
+    margin: 1px 5px 0;
+    color: #fff;
+  }
+
+  .search_input {
+    border: solid 2px #dbdbdb;
+    border-radius: 4px;
+    background-color: #fff;
+    width: 60%;
+    padding: 6px 5px;
+  }
+
+  .search_keyword {
+    float: right;
+  }
+
+  .rank-image {
+  }
+
+  /** watch **/
+
+  #player {
+    margin: 0px 10px 0px 50px;
+    border: 3px solid #272672;
+  }
+
+  .rule_row {
+    font-family: 'YuMincho';
+  }
+
+  .rule_row_red {
+    font-family: default;
+    color: #fff;
+    background-color: #f00;
+    padding: 1px;
+    border-radius: 4px;
+  }
+
+  .rule_row_blue {
+    font-family: default;
+    color: #fff;
+    background-color: #00f;
+    padding: 1px;
+    border-radius: 4px;
+  }
+
+  .each_ability {
+    margin: 0 3px;
+    text-decoration: underline;
+  }
+
+  .each_ability:hover {
+    position:relative;
+    text-decoration:none;
+  }
+
+  .ability_description_human {
+    display: none;
+    position: absolute;
+    width: 400px;
+    top: 1em; /*★省略不可、ブラウザ初期値バラバラ*/
+    left: 1em;　 /*★Firefoxでhoverが無効になります*/
+  }
+
+  .each_ability:hover .ability_description_human {
+    display: block;
+    background-color: #6DF79C;
+    padding: 10px;
+    color: #000;
+    border-top: #ffffff solid 10px;  /*フキダシ用*/
+    border-left: #6DF79C solid 5px;  /*フキダシ用*/
+  }
+
+  .ability_description_jinroh {
+    display: none;
+    position: absolute;
+    width: 400px;
+    top: 1em; /*★省略不可、ブラウザ初期値バラバラ*/
+    left: 1em;　 /*★Firefoxでhoverが無効になります*/
+  }
+
+  .each_ability:hover .ability_description_jinroh {
+    display: block;
+    background-color: #EF7585;
+    padding: 10px;
+    color: #000;
+    border-top: #ffffff solid 10px;  /*フキダシ用*/
+    border-left: #EF7585 solid 5px;  /*フキダシ用*/
+  }
+
+  .movie_description {
+    
+  }
+
+  .each_movie_description {
+    white-space:pre-wrap;
+  }
+
+  .relate_movie_thumbnail {
+    width: 100px;
+  }
+
+  /** /watch **/
+
+  .adsense {
+    margin: 10px auto 5px;
+  }
+
+  .i_mobile {
+    margin: 10px auto 5px;
+  }
+
+
+  /*** sns button ***/
+
+  /******************************
+
+   ソーシャルエリア全体を囲む要素
+   * 他のコンテンツと距離を取りたい場合は[margin]を設定して下さい
+
+  ******************************/
+  .social-area-syncer {
+    width: 100% ;
+    height: 10px;
+    background: #F5F1E9 ; /* 背景色 */
+    padding: 1.5em 0 ;
+  }
+
+  /* デスクトップPCでは高さを拡張する */
+  @media screen and ( min-width:480px ) {
+    .social-area-syncer {
+      min-height: 8px ;
+    }
+  }
+
+
+  /******************************
+
+   [ul]要素
+
+  ******************************/
+  /* スマホ */
+  ul.social-button-syncer {
+    float: right;
+    width: 100%;
+    margin: 10px auto ;
+    padding: 0 ;
+    border: none ;
+    list-style-type: none ;
+  }
+
+  /* デスクトップ */
+  @media screen and ( min-width:480px ) {
+    ul.social-button-syncer {
+      width: 410px ;
+    }
+  }
+
+
+  /******************************
+
+   [li]要素
+
+  ******************************/
+  ul.social-button-syncer li {
+    float: left;
+    text-align: center ;
+    height: 50px ;
+    margin: 0 8px ;
+    padding:0 ;
+  }
+
+
+  /******************************
+
+   各種ボタン
+
+  ******************************/
+
+  /* [Twitter] */
+  .sc-tw {
+    width: 71px ;
+  }
+
+  .sc-tw svg {
+    width: 30px ;
+    height: 30px ;
+   }
+
+  .sc-tw a {
+    height: 56px ;
+    margin: 0 auto ;
+    padding-top: 6px ;
+    display: block ;
+    background: #1B95E0 ;
+    font-size: 12px ;
+    color: #fff ;
+    font-weight: 700 ;
+    text-decoration: none ;
+    letter-spacing: .5px ;
+    border-radius: 2px ;
+  }
+
+  .sc-tw a:hover {
+    color: #fff ;
+    background: #0c7abf ;
+  }
+
+  .sc-tw span:before {
+    white-space: pre ;
+    content: '\A' ;
+  }
+
+  /* [Facebook] */
+  .sc-fb {
+    z-index: 99 ;
+    width: 69px ;
+  }
+
+  /* [LINE] */
+  .sc-li {
+    width: 50px ;
+  }
+
+  .sc-li-img {
+    border: none ;
+    margin: 0 auto ;
+    padding:0 ;
+    width: 36px ;
+    height: 60px ;
+  }
+
+  /* デスクトップPCではLINEボタンを表示しない */
+  @media screen and ( min-width:480px ) {
+    .sc-li {
+      display: none ;
+    }
+  }
+
+  /*** /sns button ***/

@@ -1,0 +1,9 @@
+# ==========================================================================================
+# reset ga
+0 0 * * * php /home/manage_movie/src/{TODO}/artisan command:reset_ga
+
+# ==========================================================================================
+# search movie
+* * * * * php /home/manage_movie/src/{TODO}/artisan command:create_search_movie_job
+# generate xml
+0 23 * * * php /home/manage_movie/src/{TODO}/artisan command:generate_xml_file

@@ -6,8 +6,5 @@
 
 ### このシステムを使った動画サイト
 
-・サッカー動画まとめ
-http://soccer.luckrf.blue/
-
-・VTuber動画まとめ
-http://vtuber.luckrf.blue/
+・AC北斗の拳 動画まとめ
+https://ac-hokuto.luckrf.blue/
